@@ -5,7 +5,11 @@ def main():
     ########################################
     """
     total = 0
-
+   
+    for x in range(5):
+        total += (int)(input("Enter a number to add to total: "))
+    
+    print(total)
     ########################################
     # Do not delete the return statement
     ########################################
